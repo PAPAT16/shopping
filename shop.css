@@ -1,0 +1,325 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+scroll-behavior: smooth;
+scrollbar-color: rgb(38, 146, 92);
+}
+.navbar{
+background-color: white;
+}
+.nav-item{
+font-size: 18px ;
+font-weight: 300 ;
+}
+.nav-link{
+    color: rgb(38, 146, 92) !important;
+}
+.nav-link:hover{
+    color: yellowgreen !important;;
+}
+.navbar-brand{
+    color: rgb(38, 146, 92) !important;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar-brand:hover{
+    color:yellowgreen !important;
+
+}
+.cart{
+    background-color: rgb(2, 137, 79);
+    color: yellow;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 4px;
+    position: relative;
+}
+.cartAmount{
+    font-size: 16px;
+    background: red;
+    color: white;
+    position: absolute;
+    top: -15px;
+    right: 0%;
+    padding: 3px;
+    border-radius: 3px;
+}
+.sn{
+    font-weight: 800;
+    font-size: 40px;
+color: rgb(38, 146, 92);
+}
+section{
+   background-color: rgb(38, 146, 92); 
+   height: 70vh;  
+}
+section p{
+    margin-top: 150px;
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+    text-align: center;
+}
+section h2{
+    color: yellowgreen;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+section h1{
+    padding-left: 20px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+section button{
+    margin-left: 20px;
+    padding: 10px;
+    border: 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: rgb(249, 249, 249);
+}
+.acc{
+background-image: url(pexels-pixabay-264507.jpg);
+background-size: contain;
+background-clip: text;
+background-attachment: fixed;
+font-size: 100px;
+font-weight: 800;
+text-align: center;
+color: transparent;
+}
+.asses{
+border: 3px solid white;
+background-color: white;
+height: 20vh;
+}
+.shop{
+    display: flex;
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.ofhead{
+    height: 150vh;
+    background-color: yellowgreen;
+}
+.price{
+    color: rgb(0, 147, 78);
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 16px;
+}
+.ead{
+    display: flex;
+    margin-left: 130px;
+}
+.op{
+    color: rgb(8, 172, 71);
+    border: 3px solid yellowgreen;
+    margin-left: 620px;
+}
+.op:hover{
+    background-color: rgb(38, 146, 92);
+    color: white;
+}
+.fine{
+    background-image: url(pexels-boris-pavlikovsky-5499132.jpg);
+    background-attachment: fixed;
+    background-clip: text;
+    color: transparent;
+    font-size: 90px;
+    font-weight: 800;
+    background-size: contain;
+    align-items: center;
+    padding-bottom: -90px;
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.order{
+    margin-top: 50px;
+    background-color: yellowgreen;
+    height: 200vh;
+}
+.cart{
+    height: 90px;
+}
+@media screen and  (max-width: 767.98px) {
+.op{
+    margin: 40%;
+}
+.acc{
+    font-size: 65px;
+}
+.head{
+    display: block;
+    margin-left: 10px;
+}
+.ead{
+    display: block;
+    margin-left: 10px;
+    background-color: yellowgreen;
+}
+.d-boy{
+    display: block;
+    margin-top: 1200px;
+}
+.ads{
+display: block;
+}
+
+}
+.d-boy{
+    display: flex;
+}
+footer{
+    margin-top: 50px;
+    list-style-type: none;
+    background-color: rgb(255, 239, 64);
+}
+.fo{
+     color: yellowgreen;
+     text-decoration: none;
+}
+
+.ads{
+display: inline-block;
+padding: 10px;
+margin: 10px;
+}
+.ads a{
+    text-decoration: none;
+    color: rgb(0, 106, 69);
+    padding: 20px;
+    margin-left: 20px;
+}
+.ads h3{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.cop{
+
+    color: black;
+    font-size: 18px;
+}
+.name{
+    float: right;
+}
+.row .product-img{
+    border-radius: 20px;
+}
+.row .product-img:hover{
+width: 200px;
+}
+.row button{
+    color: yellowgreen;
+}
+.row button:hover{
+    background-color: rgb(0, 141, 94);
+}
+.home{
+    color: rgb(0, 93, 34);
+}
+.home:hover{
+    color: yellowgreen;
+}
+.bi-dash-lg {
+    color: red;
+  }
+  
+  .bi-plus-lg {
+    color: green;
+  }
+  
+  /**
+  * ! style rules for label and some buttons
+  **/
+  
+  .text-center {
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .HomeBtn,
+  .checkout,
+  .removeAll {
+    background-color: #212529;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .checkout {
+    background-color: green;
+  }
+  .removeAll {
+    background-color: red;
+  }
+  .bi-x-lg {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /**
+  * ! style rules for shopping-cart
+  **/
+  
+  .shopping-cart {
+    display: grid;
+    grid-template-columns: repeat(1, 320px);
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  /**
+  * ! style rules for cart-item
+  **/
+  
+  .cart-item {
+    border: 2px solid #212529;
+    border-radius: 5px;
+    display: flex;
+  }
+  
+  .title-price-x {
+    width: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+  }
+  
+  .title-price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .cart-item-price {
+    background-color: #212529;
+    color: white;
+    border-radius: 4px;
+    padding: 3px 6px;
+  }
+  
