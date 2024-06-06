@@ -27,4 +27,11 @@ let shopItemsData = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
     img: "laptop.jpg",
   },
+  {
+    id: "eieiieix",
+    name: "mouse",
+    price: 100.4,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "mouse.jpg",
+  },
 ];
